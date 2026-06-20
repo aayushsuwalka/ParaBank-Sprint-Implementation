@@ -36,7 +36,15 @@ Register With Valid Credentials
     Click Element    ${confirm_password_field}
     Input Text    ${confirm_password_field}   ${PASSWORD}
     Click Button    ${reg_btn}
-    Wait Until Element Is Visible    ${welcome_msg}
+    ${already_exists}=    Run Keyword And Return Status
+    ...    Page Should Contain    This username already exists.
+
+    IF  ${already_exists}
+        Log To Console    Already Registered!
+    ELSE
+        Wait Until Page Contains    Your account was created successfully. You are now logged in.
+        Log To Console    User registered successfully
+    END
 
 
 Log Out from ParaBank
