@@ -1,0 +1,23 @@
+2026-06-20 14:06:43.551359 ==============================================================================
+2026-06-20 14:06:43.560475 Tests
+2026-06-20 14:06:43.560515 ==============================================================================
+2026-06-20 14:06:43.560536 Tests.Api
+2026-06-20 14:06:43.561526 ==============================================================================
+2026-06-20 14:06:43.801894 Tests.Api.TC-API-03
+2026-06-20 14:06:43.801894 [ ERROR ] Error in file 'C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\resources\keywords\api_keywords.robot' on line 8: Setting variable '${password}' failed: Recursive variable definition.
+2026-06-20 14:06:43.859357 ==============================================================================
+2026-06-20 14:06:43.859357 [ ERROR ] Error in file 'C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\resources\keywords\api_keywords.robot' on line 7: Setting variable '${username}' failed: Recursive variable definition.
+2026-06-20 14:06:55.251610 TC-API-03 :: Test to get the customerId of the user                   200
+2026-06-20 14:06:55.255484 [{'id': 14343, 'customerId': 12878, 'type': 'CHECKING', 'balance': -84.5}, {'id': 14787, 'customerId': 12878, 'type': 'CHECKING', 'balance': 300.0}, {'id': 14898, 'customerId': 12878, 'type': 'SAVINGS', 'balance': 100.0}, {'id': 15231, 'customerId': 12878, 'type': 'SAVINGS', 'balance': 100.0}, {'id': 15564, 'customerId': 12878, 'type': 'SAVINGS', 'balance': 100.0}]
+2026-06-20 14:07:03.444342 | PASS |
+2026-06-20 14:07:03.445269 ------------------------------------------------------------------------------
+2026-06-20 14:07:03.445289 Tests.Api.TC-API-03                                                   | PASS |
+2026-06-20 14:07:03.445955 1 test, 1 passed, 0 failed
+2026-06-20 14:07:03.446010 ==============================================================================
+2026-06-20 14:07:03.446032 Tests.Api                                                             | PASS |
+2026-06-20 14:07:03.446398 1 test, 1 passed, 0 failed
+2026-06-20 14:07:03.446422 ==============================================================================
+2026-06-20 14:07:03.446440 Tests                                                                 | PASS |
+2026-06-20 14:07:03.446748 1 test, 1 passed, 0 failed
+2026-06-20 14:07:03.446821 ==============================================================================
+2026-06-20 14:07:03.446845 Output:  C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\pabot_results\11\output.xml

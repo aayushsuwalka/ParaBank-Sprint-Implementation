@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.12 on win32)" generated="2026-06-20T14:04:26.058221" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\tests">
+<suite id="s1-s1" name="1.Ui" source="C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\tests\1.ui">
+<suite id="s1-s1-s1" name="TC-AC-UI-01" source="C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\tests\1.ui\TC-AC-UI-01.robot">
+<kw name="Load Environment" owner="common_keywords" type="SETUP">
+<kw name="Load Env" owner="environment">
+<arg>${ENV}</arg>
+<status status="PASS" start="2026-06-20T14:04:26.700000" elapsed="0.003089"/>
+</kw>
+<kw name="Get Env" owner="environment">
+<msg time="2026-06-20T14:04:26.703667" level="INFO">${url} = https://parabank.parasoft.com</msg>
+<var>${url}</var>
+<arg>baseurl</arg>
+<status status="PASS" start="2026-06-20T14:04:26.703372" elapsed="0.000368"/>
+</kw>
+<kw name="Get Env" owner="environment">
+<msg time="2026-06-20T14:04:26.704176" level="INFO">${username} = aayushsuwlka080704</msg>
+<var>${username}</var>
+<arg>username</arg>
+<status status="PASS" start="2026-06-20T14:04:26.703965" elapsed="0.000262"/>
+</kw>
+<kw name="Get Env" owner="environment">
+<msg time="2026-06-20T14:04:26.704627" level="INFO">${password} = Aayush@08</msg>
+<var>${password}</var>
+<arg>password</arg>
+<status status="PASS" start="2026-06-20T14:04:26.704394" elapsed="0.000282"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2026-06-20T14:04:26.707166" level="INFO">${BASE_URL} = https://parabank.parasoft.com</msg>
+<arg>${BASE_URL}</arg>
+<arg>${url}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2026-06-20T14:04:26.704866" elapsed="0.002397"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2026-06-20T14:04:26.708069" level="INFO">${USERNAME} = aayushsuwlka080704</msg>
+<arg>${USERNAME}</arg>
+<arg>${username}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2026-06-20T14:04:26.707482" elapsed="0.000666"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2026-06-20T14:04:26.708853" level="INFO">${PASSWORD} = Aayush@08</msg>
+<arg>${PASSWORD}</arg>
+<arg>${password}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2026-06-20T14:04:26.708342" elapsed="0.000585"/>
+</kw>
+<status status="PASS" start="2026-06-20T14:04:26.698925" elapsed="0.010126"/>
+</kw>
+<test id="s1-s1-s1-t1" name="TC-AC-UI-02" line="11">
+<kw name="Open Application" owner="common_keywords" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:26.711230" level="INFO">Opening browser 'chrome' to base url 'https://parabank.parasoft.com'.</msg>
+<arg>${BASE_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-06-20T14:04:26.710658" elapsed="6.843343"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-06-20T14:04:33.554784" elapsed="0.083066"/>
+</kw>
+<doc>Opens the application</doc>
+<status status="PASS" start="2026-06-20T14:04:26.710074" elapsed="6.928105"/>
+</kw>
+<kw name="Open a Savings Account with Valid Details" owner="account_page">
+<kw name="Ensure User Is Logged In" owner="common_keywords">
+<kw name="Login User" owner="login">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:33.653317" level="INFO">Typing text 'aayushsuwlka080704' into text field 'xpath=//input[@name='username']'.</msg>
+<arg>${login_username}</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:33.644209" elapsed="0.376664"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:34.022114" level="INFO">Typing text 'Aayush@08' into text field 'xpath=//input[@name='password']'.</msg>
+<arg>${login_password}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:34.021353" elapsed="0.146259"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:34.168420" level="INFO">Clicking element 'xpath=//input[@value='Log In']'.</msg>
+<arg>${login_btn}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:34.167983" elapsed="0.548232"/>
+</kw>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+<status status="PASS" start="2026-06-20T14:04:33.642889" elapsed="1.073539"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:44.982265" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-06-20T14:04:44.982535" level="FAIL">Text 'Accounts Overview' did not appear in 10 seconds.</msg>
+<arg>Accounts Overview</arg>
+<arg>10s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="FAIL" start="2026-06-20T14:04:34.717638" elapsed="10.271658">Text 'Accounts Overview' did not appear in 10 seconds.</status>
+</kw>
+<msg time="2026-06-20T14:04:44.989639" level="INFO">${login_success} = False</msg>
+<var>${login_success}</var>
+<arg>Wait Until Page Contains</arg>
+<arg>Accounts Overview</arg>
+<arg>10s</arg>
+<doc>Runs the specified keyword and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-06-20T14:04:34.716769" elapsed="10.272941"/>
+</kw>
+<if>
+<branch type="IF" condition="not ${login_success}">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:44.991090" level="INFO">Opening url 'https://parabank.parasoft.com'</msg>
+<arg>${BASE_URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-06-20T14:04:44.990692" elapsed="1.739434"/>
+</kw>
+<kw name="Register With Valid Credentials" owner="register_page">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:46.732876" level="INFO">Clicking element 'xpath=//a[text()='Register']'.</msg>
+<arg>${register_btn}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:46.732290" elapsed="0.571054"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${easy_sign_up}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-06-20T14:04:47.303805" elapsed="0.051331"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:47.356177" level="INFO">Clicking element 'xpath=//input[@id='customer.firstName']'.</msg>
+<arg>${first_name_field}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:47.355618" elapsed="0.142425"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:47.499359" level="INFO">Typing text 'Aayush' into text field 'xpath=//input[@id='customer.firstName']'.</msg>
+<arg>${first_name_field}</arg>
+<arg>Aayush</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:47.498563" elapsed="0.115965"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:47.615526" level="INFO">Clicking element 'xpath=//input[@id='customer.lastName']'.</msg>
+<arg>${last_name_field}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:47.614984" elapsed="0.113517"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:47.729678" level="INFO">Typing text 'Suwalka' into text field 'xpath=//input[@id='customer.lastName']'.</msg>
+<arg>${last_name_field}</arg>
+<arg>Suwalka</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:47.728911" elapsed="0.090237"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:47.820206" level="INFO">Clicking element 'xpath=//input[@id='customer.address.street']'.</msg>
+<arg>${address_field}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:47.819639" elapsed="0.105726"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:47.926398" level="INFO">Typing text 'B-325, Subhash Nagar' into text field 'xpath=//input[@id='customer.address.street']'.</msg>
+<arg>${address_field}</arg>
+<arg>B-325, Subhash Nagar</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:47.925779" elapsed="0.110594"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:48.037334" level="INFO">Clicking element 'xpath=//input[@id='customer.address.city']'.</msg>
+<arg>${city_field}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:48.036826" elapsed="0.106505"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:48.144279" level="INFO">Typing text 'Bhilwara' into text field 'xpath=//input[@id='customer.address.city']'.</msg>
+<arg>${city_field}</arg>
+<arg>Bhilwara</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:48.143768" elapsed="0.103102"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:48.248002" level="INFO">Clicking element 'xpath=//input[@id='customer.address.state']'.</msg>
+<arg>${state_field}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:48.247382" elapsed="0.112569"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:48.361281" level="INFO">Typing text 'Rajasthan' into text field 'xpath=//input[@id='customer.address.state']'.</msg>
+<arg>${state_field}</arg>
+<arg>Rajasthan</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:48.360512" elapsed="0.100885"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:48.462301" level="INFO">Clicking element 'xpath=//input[@id='customer.address.zipCode']'.</msg>
+<arg>${zipcode-field}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:48.461813" elapsed="0.101278"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:48.564337" level="INFO">Typing text '311001' into text field 'xpath=//input[@id='customer.address.zipCode']'.</msg>
+<arg>${zipcode-field}</arg>
+<arg>311001</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:48.563574" elapsed="0.124497"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:48.689091" level="INFO">Clicking element 'xpath=//input[@id='customer.phoneNumber']'.</msg>
+<arg>${phone_field}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:48.688534" elapsed="0.159356"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:48.848977" level="INFO">Typing text '6350032742' into text field 'xpath=//input[@id='customer.phoneNumber']'.</msg>
+<arg>${phone_field}</arg>
+<arg>6350032742</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:48.848365" elapsed="0.116824"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:48.966186" level="INFO">Clicking element 'xpath=//input[@id='customer.ssn']'.</msg>
+<arg>${ssn_field}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:48.965652" elapsed="0.177534"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:49.144247" level="INFO">Typing text '123456' into text field 'xpath=//input[@id='customer.ssn']'.</msg>
+<arg>${ssn_field}</arg>
+<arg>123456</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:49.143692" elapsed="0.098010"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:49.243037" level="INFO">Clicking element 'xpath=//input[@id='customer.username']'.</msg>
+<arg>${username_field}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:49.242338" elapsed="0.108238"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:49.351651" level="INFO">Typing text 'aayushsuwlka080704' into text field 'xpath=//input[@id='customer.username']'.</msg>
+<arg>${username_field}</arg>
+<arg>${USERNAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:49.351044" elapsed="0.170993"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:49.523097" level="INFO">Clicking element 'xpath=//input[@id='customer.password']'.</msg>
+<arg>${password_field}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:49.522497" elapsed="0.106058"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:49.629658" level="INFO">Typing text 'Aayush@08' into text field 'xpath=//input[@id='customer.password']'.</msg>
+<arg>${password_field}</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:49.629039" elapsed="0.097809"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:49.727866" level="INFO">Clicking element 'xpath=//input[@id='repeatedPassword']'.</msg>
+<arg>${confirm_password_field}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:49.727305" elapsed="0.113999"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:49.842104" level="INFO">Typing text 'Aayush@08' into text field 'xpath=//input[@id='repeatedPassword']'.</msg>
+<arg>${confirm_password_field}</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:49.841611" elapsed="0.102090"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:49.944741" level="INFO">Clicking button 'xpath=//input[@value='Register']'.</msg>
+<arg>${reg_btn}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T14:04:49.944199" elapsed="0.521840"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${welcome_msg}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-06-20T14:04:50.466444" elapsed="0.066694"/>
+</kw>
+<doc>Test case to verify login with valid credentials  @</doc>
+<status status="PASS" start="2026-06-20T14:04:46.731215" elapsed="3.802280"/>
+</kw>
+<status status="PASS" start="2026-06-20T14:04:44.990000" elapsed="5.543630"/>
+</branch>
+<status status="PASS" start="2026-06-20T14:04:44.989908" elapsed="5.543911"/>
+</if>
+<status status="PASS" start="2026-06-20T14:04:33.641662" elapsed="16.892318"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T14:04:50.534939" level="INFO">Clicking element 'xpath=//a[text()='Open New Account']'.</msg>
+<msg time="2026-06-20T14:04:50.713484" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-06-20T14:04:50.713779" level="FAIL">Element with locator 'xpath=//a[text()='Open New Account']' not found.</msg>
+<arg>${open_new_account}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2026-06-20T14:04:50.534369" elapsed="0.187057">Element with locator 'xpath=//a[text()='Open New Account']' not found.</status>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${account_type_dropdown}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.721875" elapsed="0.000065"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>${savings_option}</arg>
+<arg>5s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.722173" elapsed="0.000048"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.722438" elapsed="0.000096"/>
+</kw>
+<kw name="Select From List By Index" owner="SeleniumLibrary">
+<arg>${account_type_dropdown}</arg>
+<arg>0</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.722779" elapsed="0.000047"/>
+</kw>
+<kw name="Get List Items" owner="SeleniumLibrary">
+<var>${accounts}</var>
+<arg>id=fromAccountId</arg>
+<doc>Returns all labels or values of selection list ``locator``.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.722995" elapsed="0.000039"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>6s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.723192" elapsed="0.000044"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${source_account}</var>
+<arg>${accounts}[0]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.723397" elapsed="0.000039"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<arg>${SOURCE_ACCOUNT_NUMBER}</arg>
+<arg>${source_account}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.723601" elapsed="0.000059"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${savings_option}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.723813" elapsed="0.000039"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.723987" elapsed="0.000038"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${open_new_account_btn}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.724185" elapsed="0.000038"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.724374" elapsed="0.000042"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<var>${account_number}</var>
+<arg>xpath=//a[@id="newAccountId"]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.724561" elapsed="0.000038"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<arg>${SAVINGS_ACCOUNT_NUMBER}</arg>
+<arg>${account_number}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.724775" elapsed="0.000041"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${SOURCE_ACCOUNT_NUMBER}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.724962" elapsed="0.000038"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${SAVINGS_ACCOUNT_NUMBER}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.725136" elapsed="0.000037"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>${account_open_message}</arg>
+<arg>5s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="NOT RUN" start="2026-06-20T14:04:50.725323" elapsed="0.000039"/>
+</kw>
+<doc>This keyword opens a savings account with valid details. @</doc>
+<status status="FAIL" start="2026-06-20T14:04:33.639079" elapsed="17.086490">Element with locator 'xpath=//a[text()='Open New Account']' not found.</status>
+</kw>
+<kw name="Close Application" owner="common_keywords" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-06-20T14:04:50.726830" elapsed="6.413077"/>
+</kw>
+<doc>Closing the application</doc>
+<status status="PASS" start="2026-06-20T14:04:50.726370" elapsed="6.413876"/>
+</kw>
+<doc>Test to validate that user can create a savings account with valid details</doc>
+<status status="FAIL" start="2026-06-20T14:04:26.709163" elapsed="30.431276">Element with locator 'xpath=//a[text()='Open New Account']' not found.</status>
+</test>
+<status status="FAIL" start="2026-06-20T14:04:26.143421" elapsed="30.998327"/>
+</suite>
+<status status="FAIL" start="2026-06-20T14:04:26.141057" elapsed="31.001975"/>
+</suite>
+<status status="FAIL" start="2026-06-20T14:04:26.061600" elapsed="31.082328"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="0" fail="1" skip="0">Tests</stat>
+<stat name="1.Ui" id="s1-s1" pass="0" fail="1" skip="0">Tests.1.Ui</stat>
+<stat name="TC-AC-UI-01" id="s1-s1-s1" pass="0" fail="1" skip="0">Tests.1.Ui.TC-AC-UI-01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,16 @@
+--test Tests.Api.TC-API-05.TC-API-04
+--variable CALLER_ID:7c1053e1d57a41cba6f202c0364d122d
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:13
+--variable PABOTLASTLEVEL:Tests.Api
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\13
+--consolecolors off
+--consolemarkers off
+.\tests

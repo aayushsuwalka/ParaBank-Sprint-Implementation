@@ -1,0 +1,2 @@
+[ ERROR ] Error in file 'C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\resources\keywords\api_keywords.robot' on line 8: Setting variable '${password}' failed: Recursive variable definition.
+[ ERROR ] Error in file 'C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\resources\keywords\api_keywords.robot' on line 7: Setting variable '${username}' failed: Recursive variable definition.

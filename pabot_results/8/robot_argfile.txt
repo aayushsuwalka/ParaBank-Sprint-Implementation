@@ -1,0 +1,16 @@
+--test Tests.1.Ui.TC-TF-UI-01.TC-TF-UI-01
+--variable CALLER_ID:0555dec43a954fc7b9712aabe5a6269e
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:0
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:8
+--variable PABOTLASTLEVEL:Tests.1
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\8
+--consolecolors off
+--consolemarkers off
+.\tests

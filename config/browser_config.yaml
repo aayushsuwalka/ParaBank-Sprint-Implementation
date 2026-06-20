@@ -1,0 +1,9 @@
+qa:
+  baseurl:  'https://parabank.parasoft.com'
+  username: 'aayushsuwlka080704'
+  password: 'Aayush@08'
+dev:
+  baseurl: 'https://parabank.parasoft.com'
+  ph_no: ''
+  user_email: ''
+  user_password: ''

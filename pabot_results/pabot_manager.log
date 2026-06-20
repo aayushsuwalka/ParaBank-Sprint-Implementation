@@ -1,0 +1,107 @@
+[INFO]    Initialized logging in .\pabot_results
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 started.
+[DEBUG]   Storing .pabotsuitenames file
+[DEBUG]   2026-06-20 14:04:25.221710 [PID:13680] [0] [ID:0] EXECUTING Tests.1.Ui.TC-AC-UI-01.TC-AC-UI-02
+[DEBUG]   2026-06-20 14:04:25.222192 [PID:1544] [1] [ID:1] EXECUTING Tests.1.Ui.TC-AC-UI-02.TC-AC-UI-01
+[DEBUG]   2026-06-20 14:04:30.543745 [PID:1544] [1] [ID:1] still running Tests.1.Ui.TC-AC-UI-02.TC-AC-UI-01 after 5.0s
+[DEBUG]   2026-06-20 14:04:30.547256 [PID:13680] [0] [ID:0] still running Tests.1.Ui.TC-AC-UI-01.TC-AC-UI-02 after 5.0s
+[DEBUG]   2026-06-20 14:04:40.635233 [PID:1544] [1] [ID:1] still running Tests.1.Ui.TC-AC-UI-02.TC-AC-UI-01 after 15.0s
+[DEBUG]   2026-06-20 14:04:40.709105 [PID:13680] [0] [ID:0] still running Tests.1.Ui.TC-AC-UI-01.TC-AC-UI-02 after 15.0s
+[DEBUG]   2026-06-20 14:04:55.698158 [PID:1544] [1] [ID:1] still running Tests.1.Ui.TC-AC-UI-02.TC-AC-UI-01 after 30.0s
+[DEBUG]   2026-06-20 14:04:55.792433 [PID:13680] [0] [ID:0] still running Tests.1.Ui.TC-AC-UI-01.TC-AC-UI-02 after 30.0s
+[INFO]    2026-06-20 14:04:57.418164 [PID:13680] [0] [ID:0] FAILED Tests.1.Ui.TC-AC-UI-01.TC-AC-UI-02
+[DEBUG]   2026-06-20 14:04:57.432760 [PID:13712] [0] [ID:2] EXECUTING Tests.1.Ui.TC-AC-UI-03.TC-AC-UI-03
+[INFO]    2026-06-20 14:05:02.155331 [PID:1544] [1] [ID:1] PASSED Tests.1.Ui.TC-AC-UI-02.TC-AC-UI-01 in 36.9 seconds
+[DEBUG]   2026-06-20 14:05:02.168236 [PID:12628] [1] [ID:3] EXECUTING Tests.1.Ui.TC-AO-UI-01.TC-AO-UI-01
+[DEBUG]   2026-06-20 14:05:02.520236 [PID:13712] [0] [ID:2] still running Tests.1.Ui.TC-AC-UI-03.TC-AC-UI-03 after 5.0s
+[DEBUG]   2026-06-20 14:05:07.196173 [PID:12628] [1] [ID:3] still running Tests.1.Ui.TC-AO-UI-01.TC-AO-UI-01 after 5.0s
+[DEBUG]   2026-06-20 14:05:12.565390 [PID:13712] [0] [ID:2] still running Tests.1.Ui.TC-AC-UI-03.TC-AC-UI-03 after 15.0s
+[DEBUG]   2026-06-20 14:05:17.238525 [PID:12628] [1] [ID:3] still running Tests.1.Ui.TC-AO-UI-01.TC-AO-UI-01 after 15.0s
+[INFO]    2026-06-20 14:05:21.673394 [PID:12628] [1] [ID:3] PASSED Tests.1.Ui.TC-AO-UI-01.TC-AO-UI-01 in 19.4 seconds
+[DEBUG]   2026-06-20 14:05:21.688311 [PID:5288] [0] [ID:4] EXECUTING Tests.1.Ui.TC-AO-UI-02.TC-AO-UI-02
+[INFO]    2026-06-20 14:05:25.474806 [PID:13712] [0] [ID:2] PASSED Tests.1.Ui.TC-AC-UI-03.TC-AC-UI-03 in 28.0 seconds
+[DEBUG]   2026-06-20 14:05:25.490008 [PID:12740] [1] [ID:5] EXECUTING Tests.1.Ui.TC-LG-UI-01.TC-LG-UI-01
+[DEBUG]   2026-06-20 14:05:26.714968 [PID:5288] [0] [ID:4] still running Tests.1.Ui.TC-AO-UI-02.TC-AO-UI-02 after 5.0s
+[DEBUG]   2026-06-20 14:05:30.524427 [PID:12740] [1] [ID:5] still running Tests.1.Ui.TC-LG-UI-01.TC-LG-UI-01 after 5.0s
+[DEBUG]   2026-06-20 14:05:36.760135 [PID:5288] [0] [ID:4] still running Tests.1.Ui.TC-AO-UI-02.TC-AO-UI-02 after 15.0s
+[DEBUG]   2026-06-20 14:05:40.567959 [PID:12740] [1] [ID:5] still running Tests.1.Ui.TC-LG-UI-01.TC-LG-UI-01 after 15.0s
+[INFO]    2026-06-20 14:05:43.454786 [PID:12740] [1] [ID:5] PASSED Tests.1.Ui.TC-LG-UI-01.TC-LG-UI-01 in 17.9 seconds
+[DEBUG]   2026-06-20 14:05:43.469371 [PID:17380] [0] [ID:6] EXECUTING Tests.1.Ui.TC-REG-UI-01.TC-REG-UI-01
+[DEBUG]   2026-06-20 14:05:48.505239 [PID:17380] [0] [ID:6] still running Tests.1.Ui.TC-REG-UI-01.TC-REG-UI-01 after 5.0s
+[INFO]    2026-06-20 14:05:48.723873 [PID:5288] [0] [ID:4] PASSED Tests.1.Ui.TC-AO-UI-02.TC-AO-UI-02 in 27.0 seconds
+[DEBUG]   2026-06-20 14:05:48.741801 [PID:16784] [1] [ID:7] EXECUTING Tests.1.Ui.TC-REG-UI-03.TC-REG-UI-03
+[DEBUG]   2026-06-20 14:05:53.851584 [PID:16784] [1] [ID:7] still running Tests.1.Ui.TC-REG-UI-03.TC-REG-UI-03 after 5.0s
+[DEBUG]   2026-06-20 14:05:58.678310 [PID:17380] [0] [ID:6] still running Tests.1.Ui.TC-REG-UI-01.TC-REG-UI-01 after 15.0s
+[INFO]    2026-06-20 14:06:03.168357 [PID:17380] [0] [ID:6] PASSED Tests.1.Ui.TC-REG-UI-01.TC-REG-UI-01 in 19.6 seconds
+[DEBUG]   2026-06-20 14:06:03.183104 [PID:14516] [0] [ID:8] EXECUTING Tests.1.Ui.TC-TF-UI-01.TC-TF-UI-01
+[DEBUG]   2026-06-20 14:06:03.895448 [PID:16784] [1] [ID:7] still running Tests.1.Ui.TC-REG-UI-03.TC-REG-UI-03 after 15.0s
+[INFO]    2026-06-20 14:06:05.386007 [PID:16784] [1] [ID:7] PASSED Tests.1.Ui.TC-REG-UI-03.TC-REG-UI-03 in 16.6 seconds
+[DEBUG]   2026-06-20 14:06:05.398768 [PID:19428] [1] [ID:9] EXECUTING Tests.Api.TC-API-01.TC-API-01
+[DEBUG]   2026-06-20 14:06:08.235689 [PID:14516] [0] [ID:8] still running Tests.1.Ui.TC-TF-UI-01.TC-TF-UI-01 after 5.0s
+[DEBUG]   2026-06-20 14:06:10.446699 [PID:19428] [1] [ID:9] still running Tests.Api.TC-API-01.TC-API-01 after 5.0s
+[DEBUG]   2026-06-20 14:06:18.270804 [PID:14516] [0] [ID:8] still running Tests.1.Ui.TC-TF-UI-01.TC-TF-UI-01 after 15.0s
+[DEBUG]   2026-06-20 14:06:20.478364 [PID:19428] [1] [ID:9] still running Tests.Api.TC-API-01.TC-API-01 after 15.0s
+[INFO]    2026-06-20 14:06:23.595279 [PID:19428] [1] [ID:9] PASSED Tests.Api.TC-API-01.TC-API-01 in 18.2 seconds
+[DEBUG]   2026-06-20 14:06:23.602484 [PID:15664] [0] [ID:10] EXECUTING Tests.Api.TC-API-02.TC-API-02
+[DEBUG]   2026-06-20 14:06:28.618669 [PID:15664] [0] [ID:10] still running Tests.Api.TC-API-02.TC-API-02 after 5.0s
+[DEBUG]   2026-06-20 14:06:33.323036 [PID:14516] [0] [ID:8] still running Tests.1.Ui.TC-TF-UI-01.TC-TF-UI-01 after 30.0s
+[DEBUG]   2026-06-20 14:06:38.651849 [PID:15664] [0] [ID:10] still running Tests.Api.TC-API-02.TC-API-02 after 15.0s
+[INFO]    2026-06-20 14:06:43.174079 [PID:15664] [0] [ID:10] PASSED Tests.Api.TC-API-02.TC-API-02 in 19.6 seconds
+[DEBUG]   2026-06-20 14:06:43.182215 [PID:16356] [1] [ID:11] EXECUTING Tests.Api.TC-API-03.TC-API-03
+[DEBUG]   2026-06-20 14:06:48.198420 [PID:16356] [1] [ID:11] still running Tests.Api.TC-API-03.TC-API-03 after 5.0s
+[DEBUG]   2026-06-20 14:06:53.391207 [PID:14516] [0] [ID:8] still running Tests.1.Ui.TC-TF-UI-01.TC-TF-UI-01 after 50.0s
+[INFO]    2026-06-20 14:06:57.510479 [PID:14516] [0] [ID:8] PASSED Tests.1.Ui.TC-TF-UI-01.TC-TF-UI-01 in 54.3 seconds
+[DEBUG]   2026-06-20 14:06:57.518085 [PID:9992] [0] [ID:12] EXECUTING Tests.Api.TC-API-04.TC-API-04
+[DEBUG]   2026-06-20 14:06:58.235963 [PID:16356] [1] [ID:11] still running Tests.Api.TC-API-03.TC-API-03 after 15.0s
+[DEBUG]   2026-06-20 14:07:02.535902 [PID:9992] [0] [ID:12] still running Tests.Api.TC-API-04.TC-API-04 after 5.0s
+[INFO]    2026-06-20 14:07:03.678524 [PID:16356] [1] [ID:11] PASSED Tests.Api.TC-API-03.TC-API-03 in 20.5 seconds
+[DEBUG]   2026-06-20 14:07:03.684930 [PID:19208] [1] [ID:13] EXECUTING Tests.Api.TC-API-05.TC-API-04
+[DEBUG]   2026-06-20 14:07:08.706591 [PID:19208] [1] [ID:13] still running Tests.Api.TC-API-05.TC-API-04 after 5.0s
+[DEBUG]   2026-06-20 14:07:12.570636 [PID:9992] [0] [ID:12] still running Tests.Api.TC-API-04.TC-API-04 after 15.0s
+[DEBUG]   2026-06-20 14:07:18.736710 [PID:19208] [1] [ID:13] still running Tests.Api.TC-API-05.TC-API-04 after 15.0s
+[INFO]    2026-06-20 14:07:25.764121 [PID:19208] [1] [ID:13] PASSED Tests.Api.TC-API-05.TC-API-04 in 22.1 seconds
+[DEBUG]   2026-06-20 14:07:25.770467 [PID:7140] [0] [ID:14] EXECUTING Tests.Hybrid.TC-E2E-01.TC-E2E-01
+[DEBUG]   2026-06-20 14:07:27.620546 [PID:9992] [0] [ID:12] still running Tests.Api.TC-API-04.TC-API-04 after 30.0s
+[DEBUG]   2026-06-20 14:07:30.788387 [PID:7140] [0] [ID:14] still running Tests.Hybrid.TC-E2E-01.TC-E2E-01 after 5.0s
+[INFO]    2026-06-20 14:07:31.149284 [PID:9992] [0] [ID:12] PASSED Tests.Api.TC-API-04.TC-API-04 in 33.6 seconds
+[DEBUG]   2026-06-20 14:07:31.156977 [PID:24052] [1] [ID:15] EXECUTING Tests.Hybrid.TC-E2E-02.TC-E2E-02
+[DEBUG]   2026-06-20 14:07:36.175780 [PID:24052] [1] [ID:15] still running Tests.Hybrid.TC-E2E-02.TC-E2E-02 after 5.0s
+[DEBUG]   2026-06-20 14:07:40.847915 [PID:7140] [0] [ID:14] still running Tests.Hybrid.TC-E2E-01.TC-E2E-01 after 15.0s
+[DEBUG]   2026-06-20 14:07:46.213475 [PID:24052] [1] [ID:15] still running Tests.Hybrid.TC-E2E-02.TC-E2E-02 after 15.0s
+[INFO]    2026-06-20 14:07:48.279270 [PID:7140] [0] [ID:14] PASSED Tests.Hybrid.TC-E2E-01.TC-E2E-01 in 22.5 seconds
+[DEBUG]   2026-06-20 14:07:48.285884 [PID:27244] [0] [ID:16] EXECUTING Tests.Negative.TC-API-NEG-01.TC-API-NEG-01
+[DEBUG]   2026-06-20 14:07:53.303145 [PID:27244] [0] [ID:16] still running Tests.Negative.TC-API-NEG-01.TC-API-NEG-01 after 5.0s
+[DEBUG]   2026-06-20 14:08:01.265856 [PID:24052] [1] [ID:15] still running Tests.Hybrid.TC-E2E-02.TC-E2E-02 after 30.0s
+[DEBUG]   2026-06-20 14:08:03.337860 [PID:27244] [0] [ID:16] still running Tests.Negative.TC-API-NEG-01.TC-API-NEG-01 after 15.0s
+[INFO]    2026-06-20 14:08:08.118657 [PID:24052] [1] [ID:15] PASSED Tests.Hybrid.TC-E2E-02.TC-E2E-02 in 37.0 seconds
+[DEBUG]   2026-06-20 14:08:08.125684 [PID:14716] [1] [ID:17] EXECUTING Tests.Negative.TC-REG-NEG-04.TC-TF-NEG-01
+[INFO]    2026-06-20 14:08:10.588511 [PID:27244] [0] [ID:16] PASSED Tests.Negative.TC-API-NEG-01.TC-API-NEG-01 in 22.3 seconds
+[DEBUG]   2026-06-20 14:08:10.596649 [PID:10672] [0] [ID:18] EXECUTING Tests.Negative.TC-REG-UI-02.TC-REG-UI-02
+[DEBUG]   2026-06-20 14:08:13.142651 [PID:14716] [1] [ID:17] still running Tests.Negative.TC-REG-NEG-04.TC-TF-NEG-01 after 5.0s
+[DEBUG]   2026-06-20 14:08:15.617739 [PID:10672] [0] [ID:18] still running Tests.Negative.TC-REG-UI-02.TC-REG-UI-02 after 5.0s
+[INFO]    2026-06-20 14:08:20.775727 [PID:14716] [1] [ID:17] PASSED Tests.Negative.TC-REG-NEG-04.TC-TF-NEG-01 in 12.6 seconds
+[DEBUG]   2026-06-20 14:08:20.783978 [PID:22416] [1] [ID:19] EXECUTING Tests.Negative.TC-REG-UI-04.TC-REG-UI-04
+[DEBUG]   2026-06-20 14:08:25.648782 [PID:10672] [0] [ID:18] still running Tests.Negative.TC-REG-UI-02.TC-REG-UI-02 after 15.0s
+[DEBUG]   2026-06-20 14:08:25.803111 [PID:22416] [1] [ID:19] still running Tests.Negative.TC-REG-UI-04.TC-REG-UI-04 after 5.0s
+[INFO]    2026-06-20 14:08:26.555538 [PID:10672] [0] [ID:18] PASSED Tests.Negative.TC-REG-UI-02.TC-REG-UI-02 in 16.0 seconds
+[DEBUG]   2026-06-20 14:08:26.564570 [PID:5948] [0] [ID:20] EXECUTING Tests.Negative.TC-TF-NEG-01.TC-TF-NEG-01
+[DEBUG]   2026-06-20 14:08:31.583112 [PID:5948] [0] [ID:20] still running Tests.Negative.TC-TF-NEG-01.TC-TF-NEG-01 after 5.0s
+[INFO]    2026-06-20 14:08:34.349662 [PID:22416] [1] [ID:19] PASSED Tests.Negative.TC-REG-UI-04.TC-REG-UI-04 in 13.6 seconds
+[DEBUG]   2026-06-20 14:08:34.358166 [PID:11636] [1] [ID:21] EXECUTING Tests.Negative.TC-TF-NEG-02.TC-TF-NEG-01
+[DEBUG]   2026-06-20 14:08:39.375359 [PID:11636] [1] [ID:21] still running Tests.Negative.TC-TF-NEG-02.TC-TF-NEG-01 after 5.0s
+[DEBUG]   2026-06-20 14:08:41.617202 [PID:5948] [0] [ID:20] still running Tests.Negative.TC-TF-NEG-01.TC-TF-NEG-01 after 15.0s
+[INFO]    2026-06-20 14:08:46.403840 [PID:11636] [1] [ID:21] PASSED Tests.Negative.TC-TF-NEG-02.TC-TF-NEG-01 in 12.0 seconds
+[DEBUG]   2026-06-20 14:08:56.669196 [PID:5948] [0] [ID:20] still running Tests.Negative.TC-TF-NEG-01.TC-TF-NEG-01 after 30.0s
+[INFO]    2026-06-20 14:09:08.621081 [PID:5948] [0] [ID:20] PASSED Tests.Negative.TC-TF-NEG-01.TC-TF-NEG-01 in 42.1 seconds
+[INFO]    22 tests, 21 passed, 1 failed, 0 skipped.
+[INFO]    ===================================================
+[INFO]    Output:  C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\output.xml
+[INFO]    Log:     C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\log.html
+[INFO]    Report:  C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\report.html
+[DEBUG]   Finalizing Pabot execution...
+[DEBUG]   Stopping PabotLib process
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 stopped.
+[DEBUG]   PabotLib process stopped
+[INFO]    Total testing: 9 minutes 4.0 seconds
+[INFO]    Elapsed time:  4 minutes 45.24 seconds
+[DEBUG]   Logs flushed successfully.

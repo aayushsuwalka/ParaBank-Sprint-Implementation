@@ -1,0 +1,11 @@
+*** Test Cases ***,${Firstname},${Lastname},${Address},${City},${State},${Zipcode},${Phno},${SSN},${Username},${Password},${Confirm}
+Register Aayush,Aayush,Suwalka,"B- 325, Subhash Nagar",Bhilwara,Rajasthan,256341,9564875641,564789,aayushsuwalka08,Aayush@)8,Aayush@)8
+Register Anshul,Anshul,Suwalka,234 Wakad,Pune,Maharastra,526412,8569873256,965874,anshulsuwalka04,Anshul@98,Anshul@98
+Register Saurabh,Saurabh,Tiwari,"C-435, Tilak Nagar",Mumbai,Maharstra,526394,6532487945,654879,saurabhtiwari09,Saurabh@34,Saurabh@34
+Register Pulkit,Pulkit,Jangid,"F-321, Aazad Nagar",Noida,Delhi,789546,7014023456,258741,pulkitjangid08,Pulkit@90,Pulkit@90
+Register Maahi,Maahi,Pathak,"54, Chungi K Pass",Hindaon,Rajasthan,456879,6377956523,163524,mahipathak04,Mahi#0412,Mahi#0412
+Register Aastha,Aastha,Bilochi,"678, Killa Road",Chittourgarh,Rajasthan,985621,6598856412,986574,aasthabilochi34,Aastha%21,Aastha%21
+Register Yashika,Yashika,Satija,"803, Akuruti Apartments",Alwar,Rajasthan,246875,7014526398,264895,yashikasatija324,Yashika28,Yashika28
+Register Bhoomika,Bhoomika,Goswami,"L-99, Nehru Vihar",Indore,Madhya Pradesh,642981,8456235246,415698,bhoomikagoswami65,Bhoomika$07,Bhoomika$07
+Register Devesh,Devesh,Joshi,"A-78, Krishna Kunj",Bikaner,Rajasthan,754689,6985789456,235698,deshjoshi78,DeveshJosi@#54,DeveshJosi@#54
+Register Akshit,Akshit,Aggarwal,"H-121, Bajrang Nagar",Kota,Rajasthan,564238,9965846213,659874,akshitaggarwal09,Akshit@aggarwal,Akshit@aggarwal

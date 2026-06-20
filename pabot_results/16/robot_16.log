@@ -1,0 +1,22 @@
+2026-06-20 14:07:48.647737 ==============================================================================
+2026-06-20 14:07:48.696262 Tests
+2026-06-20 14:07:48.696307 ==============================================================================
+2026-06-20 14:07:48.696336 Tests.Negative
+2026-06-20 14:07:48.697238 ==============================================================================
+2026-06-20 14:07:48.999457 Tests.Negative.TC-API-NEG-01
+2026-06-20 14:07:48.999457 [ ERROR ] Error in file 'C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\resources\keywords\api_keywords.robot' on line 8: Setting variable '${password}' failed: Recursive variable definition.
+2026-06-20 14:07:49.025805 ==============================================================================
+2026-06-20 14:07:49.025805 [ ERROR ] Error in file 'C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\resources\keywords\api_keywords.robot' on line 7: Setting variable '${username}' failed: Recursive variable definition.
+2026-06-20 14:08:04.045582 TC-API-NEG-01 :: Testcase to vrify the funds tranfdered between tw... 400
+2026-06-20 14:08:10.327917 | PASS |
+2026-06-20 14:08:10.360185 ------------------------------------------------------------------------------
+2026-06-20 14:08:10.360217 Tests.Negative.TC-API-NEG-01                                          | PASS |
+2026-06-20 14:08:10.361313 1 test, 1 passed, 0 failed
+2026-06-20 14:08:10.361339 ==============================================================================
+2026-06-20 14:08:10.361355 Tests.Negative                                                        | PASS |
+2026-06-20 14:08:10.361555 1 test, 1 passed, 0 failed
+2026-06-20 14:08:10.361631 ==============================================================================
+2026-06-20 14:08:10.361660 Tests                                                                 | PASS |
+2026-06-20 14:08:10.361917 1 test, 1 passed, 0 failed
+2026-06-20 14:08:10.361938 ==============================================================================
+2026-06-20 14:08:10.361955 Output:  C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\pabot_results\16\output.xml

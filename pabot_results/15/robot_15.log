@@ -1,0 +1,29 @@
+2026-06-20 14:07:31.585777 ==============================================================================
+2026-06-20 14:07:31.590491 Tests
+2026-06-20 14:07:31.590534 ==============================================================================
+2026-06-20 14:07:31.590562 Tests.Hybrid
+2026-06-20 14:07:31.591483 ==============================================================================
+2026-06-20 14:07:31.896285 Tests.Hybrid.TC-E2E-02
+2026-06-20 14:07:31.896285 [ ERROR ] Error in file 'C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\resources\keywords\api_keywords.robot' on line 8: Setting variable '${password}' failed: Recursive variable definition.
+2026-06-20 14:07:31.919275 ==============================================================================
+2026-06-20 14:07:31.919275 [ ERROR ] Error in file 'C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\resources\keywords\api_keywords.robot' on line 7: Setting variable '${username}' failed: Recursive variable definition.
+2026-06-20 14:07:51.506328 TC-E2E-02 :: Testcase to vrify the funds tranfered between two acc... 14343
+2026-06-20 14:07:51.555434 16452
+2026-06-20 14:07:54.699794 200
+2026-06-20 14:07:54.762138 [{'id': 14343, 'customerId': 12878, 'type': 'CHECKING', 'balance': -484.5}, {'id': 14787, 'customerId': 12878, 'type': 'CHECKING', 'balance': 300.0}, {'id': 14898, 'customerId': 12878, 'type': 'SAVINGS', 'balance': 100.0}, {'id': 15231, 'customerId': 12878, 'type': 'SAVINGS', 'balance': 100.0}, {'id': 15564, 'customerId': 12878, 'type': 'SAVINGS', 'balance': 100.0}, {'id': 15675, 'customerId': 12878, 'type': 'SAVINGS', 'balance': 200.0}, {'id': 16119, 'customerId': 12878, 'type': 'SAVINGS', 'balance': 100.0}, {'id': 16452, 'customerId': 12878, 'type': 'SAVINGS', 'balance': 100.0}]
+2026-06-20 14:07:56.963917 -484.5
+2026-06-20 14:07:56.996619 -484.5
+2026-06-20 14:08:01.588641 -584.5
+2026-06-20 14:08:01.594495 -584.5
+2026-06-20 14:08:07.809890 | PASS |
+2026-06-20 14:08:07.858011 ------------------------------------------------------------------------------
+2026-06-20 14:08:07.858030 Tests.Hybrid.TC-E2E-02                                                | PASS |
+2026-06-20 14:08:07.858694 1 test, 1 passed, 0 failed
+2026-06-20 14:08:07.858756 ==============================================================================
+2026-06-20 14:08:07.858774 Tests.Hybrid                                                          | PASS |
+2026-06-20 14:08:07.859154 1 test, 1 passed, 0 failed
+2026-06-20 14:08:07.859179 ==============================================================================
+2026-06-20 14:08:07.859201 Tests                                                                 | PASS |
+2026-06-20 14:08:07.859484 1 test, 1 passed, 0 failed
+2026-06-20 14:08:07.859541 ==============================================================================
+2026-06-20 14:08:07.859554 Output:  C:\Users\aayus_ucf5jw3\OneDrive\Desktop\ParaBank Sprint\pabot_results\15\output.xml

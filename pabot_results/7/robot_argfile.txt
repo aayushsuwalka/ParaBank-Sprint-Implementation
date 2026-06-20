@@ -1,0 +1,16 @@
+--test Tests.1.Ui.TC-REG-UI-03.TC-REG-UI-03
+--variable CALLER_ID:f391aedeaa744ab4a19295551d8f8f23
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:7
+--variable PABOTLASTLEVEL:Tests.1.Ui.TC-REG-UI-03
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\7
+--consolecolors off
+--consolemarkers off
+.\tests

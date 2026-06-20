@@ -1,0 +1,16 @@
+--test Tests.Hybrid.TC-E2E-02.TC-E2E-02
+--variable CALLER_ID:a1a26981fef64beaa98da77a8d65aa2e
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:15
+--variable PABOTLASTLEVEL:Tests.Hybrid
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\15
+--consolecolors off
+--consolemarkers off
+.\tests

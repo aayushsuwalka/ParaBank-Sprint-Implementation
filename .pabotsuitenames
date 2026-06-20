@@ -1,0 +1,26 @@
+datasources:e22fc2d2f184815e06e6205358c38c28d858a636
+commandlineoptions:65f95c924ba97541f47949701c4e3c51192a5b43
+suitesfrom:no-suites-from-option
+file:1cc8b702945bb33e4727d92cdaba5d716020446a
+--test Tests.1.Ui.TC-AC-UI-01.TC-AC-UI-02
+--test Tests.1.Ui.TC-AC-UI-02.TC-AC-UI-01
+--test Tests.1.Ui.TC-AC-UI-03.TC-AC-UI-03
+--test Tests.1.Ui.TC-AO-UI-01.TC-AO-UI-01
+--test Tests.1.Ui.TC-AO-UI-02.TC-AO-UI-02
+--test Tests.1.Ui.TC-LG-UI-01.TC-LG-UI-01
+--test Tests.1.Ui.TC-REG-UI-01.TC-REG-UI-01
+--test Tests.1.Ui.TC-REG-UI-03.TC-REG-UI-03
+--test Tests.1.Ui.TC-TF-UI-01.TC-TF-UI-01
+--test Tests.Api.TC-API-01.TC-API-01
+--test Tests.Api.TC-API-02.TC-API-02
+--test Tests.Api.TC-API-03.TC-API-03
+--test Tests.Api.TC-API-04.TC-API-04
+--test Tests.Api.TC-API-05.TC-API-04
+--test Tests.Hybrid.TC-E2E-01.TC-E2E-01
+--test Tests.Hybrid.TC-E2E-02.TC-E2E-02
+--test Tests.Negative.TC-API-NEG-01.TC-API-NEG-01
+--test Tests.Negative.TC-REG-NEG-04.TC-TF-NEG-01
+--test Tests.Negative.TC-REG-UI-02.TC-REG-UI-02
+--test Tests.Negative.TC-REG-UI-04.TC-REG-UI-04
+--test Tests.Negative.TC-TF-NEG-01.TC-TF-NEG-01
+--test Tests.Negative.TC-TF-NEG-02.TC-TF-NEG-01
