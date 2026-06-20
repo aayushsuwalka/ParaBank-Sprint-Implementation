@@ -1,6 +1,6 @@
 qa:
   baseurl:  'https://parabank.parasoft.com'
-  username: 'aayushsuwlka080704'
+  username: 'aayushsuwlka0804'
   password: 'Aayush@08'
 dev:
   baseurl: 'https://parabank.parasoft.com'
