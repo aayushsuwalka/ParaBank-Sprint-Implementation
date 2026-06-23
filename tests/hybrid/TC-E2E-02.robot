@@ -6,6 +6,7 @@ Resource    ../../resources/pages/account_page.robot
 Suite Setup     Load Environment
 Test Setup      Open Application
 Test Teardown   Close Application
+
 *** Test Cases ***
 TC-E2E-02
     [Documentation]   Testcase to vrify the funds tranfered between two accounts

@@ -9,6 +9,6 @@ Test Teardown   Close Application
 
 
 *** Test Cases ***
-TC-AC-UI-01
+TC-AC-UI-03
     [Documentation]    Test to validate that user can create a checking account with valid details
     Open a Checking Account with Valid Details

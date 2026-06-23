@@ -2,7 +2,6 @@
 Library     SeleniumLibrary
 Resource    ../../resources/keywords/api_keywords.robot
 Resource    ../../resources/pages/account_page.robot
-Resource    ../../resources/keywords/common_keywords.robot
 
 Suite Setup     Load Environment
 Test Setup      Open Application

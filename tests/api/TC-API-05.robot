@@ -8,7 +8,7 @@ Test Setup      Open Application
 Test Teardown   Close Application
 
 *** Test Cases ***
-TC-API-04
+TC-API-05
     [Documentation]   Testcase to verify json response fields
     Ensure User Is Logged In
     Get Customer Id

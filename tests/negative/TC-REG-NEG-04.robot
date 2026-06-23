@@ -9,6 +9,6 @@ Test Setup      Open Application
 Test Teardown   Close Application
 
 *** Test Cases ***
-TC-TF-NEG-01
+TC-REG-NEG-01
     [Documentation]    Test to validate that user cannot login with wromng credentials
     Login with Wrong Credentials

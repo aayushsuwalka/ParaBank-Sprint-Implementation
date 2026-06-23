@@ -8,6 +8,6 @@ Test Setup      Open Application
 Test Teardown   Close Application
 
 *** Test Cases ***
-TC-TF-NEG-01
+TC-TF-NEG-02
     [Documentation]    Test to validate that user cannot transfer funds with invalid amount
     Transfer Funds with Zero Amount in same Account
