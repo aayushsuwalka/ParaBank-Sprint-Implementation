@@ -9,5 +9,5 @@ Test Teardown   Close Application
 
 *** Test Cases ***
 TC-TF-UI-01
-    [Documentation]    Test to validate that user can transfer funds between two accounts
+    [Documentation]    Test to perform a fund transfer between two valid accounts
     Transfer Funds Between Two Accounts

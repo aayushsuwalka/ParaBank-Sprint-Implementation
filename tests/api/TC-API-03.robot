@@ -9,7 +9,7 @@ Test Teardown   Close Application
 
 *** Test Cases ***
 TC-API-03
-    [Documentation]    Test to get the customerId of the user
+    [Documentation]    Test to verify the account type returned by the API
     Ensure User Is Logged In
     Get Customer Id
     Get all Accounts of Customer

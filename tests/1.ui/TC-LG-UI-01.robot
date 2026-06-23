@@ -9,5 +9,5 @@ Test Teardown   Close Application
 
 *** Test Cases ***
 TC-LG-UI-01
-    [Documentation]   Test to verify the Log Out Button
+    [Documentation]   Test to check automatic login after registration
     Log Out from ParaBank

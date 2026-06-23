@@ -9,5 +9,5 @@ Test Teardown   Close Application
 
 *** Test Cases ***
 TC-AO-UI-02
-    [Documentation]     This tests verify the accounts creation
+    [Documentation]     Test to verify account summary updates after new account creation
     Verify Account Overview after Account Creation

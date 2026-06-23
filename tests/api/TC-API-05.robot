@@ -9,7 +9,7 @@ Test Teardown   Close Application
 
 *** Test Cases ***
 TC-API-05
-    [Documentation]   Testcase to verify json response fields
+    [Documentation]   Testcase to verify GET accounts response contains required fields
     Ensure User Is Logged In
     Get Customer Id
     Get all Accounts of Customer

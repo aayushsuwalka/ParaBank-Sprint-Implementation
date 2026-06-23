@@ -10,5 +10,5 @@ Test Teardown   Close Application
 
 *** Test Cases ***
 TC-REG-NEG-01
-    [Documentation]    Test to validate that user cannot login with wromng credentials
+    [Documentation]    Test to verify registration mandatory fields left empty
     Login with Wrong Credentials

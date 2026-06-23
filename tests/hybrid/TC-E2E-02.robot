@@ -9,7 +9,7 @@ Test Teardown   Close Application
 
 *** Test Cases ***
 TC-E2E-02
-    [Documentation]   Testcase to vrify the funds tranfered between two accounts
+    [Documentation]   Test to check that the amount taken from the source is exactly equal to the amount added to the destination — no money lost or duplicated
     Open a Savings Account with Valid Details
     Get Customer Id
     Get all Accounts of Customer

@@ -9,7 +9,7 @@ Test Teardown   Close Application
 
 *** Test Cases ***
 TC-API-02
-    [Documentation]    Test to get the customerId of the user
+    [Documentation]    Test to new account ID is present in API response
     Ensure User Is Logged In
     Get Customer Id
     Get all Accounts of Customer

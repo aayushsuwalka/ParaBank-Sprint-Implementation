@@ -10,7 +10,7 @@ Test Teardown   Close Application
 
 *** Test Cases ***
 TC-E2E-01
-    [Documentation]     verify Ui and API
+    [Documentation]     Test to create an account from the UI and verify its details through the API
     Ensure User Is Logged In
     Open Savings Account
     Verify AccountID Through API

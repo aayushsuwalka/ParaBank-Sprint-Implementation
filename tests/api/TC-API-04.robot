@@ -9,7 +9,7 @@ Test Teardown   Close Application
 
 *** Test Cases ***
 TC-API-04
-    [Documentation]   Testcase to vrify the funds tranfdered between two accounts
+    [Documentation]   Test to verify the sender's account balance is reduced after the transfer
     Open a Savings Account with Valid Details
     Get Customer Id
     Get all Accounts of Customer
