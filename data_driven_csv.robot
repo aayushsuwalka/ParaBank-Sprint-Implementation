@@ -3,9 +3,7 @@ Library    SeleniumLibrary
 Library    DataDriver   file=${EXECDIR}/login_data.csv  dialect=excel
 
 Test Setup    Navigate To Parabank Register Page
-#Test Setup  CLick Register After Navigating
 Test Teardown  Close Browser
-
 Test Template  Register User
 
 *** Variables ***
@@ -50,10 +48,6 @@ Register User
     Input Text    ${password_field}  ${Password}
     Input Text    ${confirm_password_field}  ${Confirm}
     Click Element  ${register_field}
-
-#CLick Register After Navigating
-#    Open Application
-#    CLick Register Button
 
 
 
