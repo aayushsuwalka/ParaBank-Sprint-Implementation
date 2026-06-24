@@ -23,7 +23,6 @@ ${register_field}  xpath=//input[@value="Register"]
 
 *** Test Cases ***
 Test Case For Data Driven   ${Firstname}    ${Lastname}    ${Address}    ${City}    ${State}    ${Zipcode}    ${Phno}    ${SSN}    ${Username}    ${Password}    ${Confirm}
-   [Documentation]      Data driven testing using csv
    [Tags]   datadriver
 
 *** Keywords ***
